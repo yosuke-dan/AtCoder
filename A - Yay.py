@@ -1,6 +1,6 @@
 X = input()
 
-for i in range(len(X)-1):
-    if not X[i] == X[i+1]:
-        hako = i + 1
-print(hako)
+for i in range(len(X)):
+    if X.count(X[i]) == 1:
+        print(i+1)
+        exit()
