@@ -32,3 +32,11 @@ if S == ans:
     print('Yes')
 else:
     print('No')
+
+
+S = input()
+l = list(S)
+if l == sorted(l):
+    print('Yes')
+else:
+    print('No')
